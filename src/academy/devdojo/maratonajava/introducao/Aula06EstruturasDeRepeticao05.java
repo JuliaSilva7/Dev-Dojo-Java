@@ -1,11 +1,9 @@
 package academy.devdojo.maratonajava.introducao;
 
-import java.text.Format;
-
 public class Aula06EstruturasDeRepeticao05 {
     static void main() {
         double valorCarro = 30000;
-        double valorParcela = 0;
+        double valorParcela;
         for (int parcela = (int) valorCarro; parcela >= 1; parcela--) {
             valorParcela = valorCarro / parcela;
             if (valorParcela < 1000) {

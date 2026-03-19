@@ -5,7 +5,7 @@ public class Aula06EstruturasDeRepeticao04 {
         // Dado o valor de um carro, descubra quantas vezes ele pode ser parcelado
         // ValorParcela = 1000
         double valorCarro = 12350;
-        double valorParcela = 0;
+        double valorParcela;
 
         for (int parcela = 1; parcela <=valorCarro; parcela++){
             valorParcela = valorCarro / parcela;
